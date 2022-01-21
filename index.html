@@ -30,13 +30,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -137,8 +137,8 @@
             </div>
         </section>
         <!-- Shoes -->
-        <Section class="container">
-            <h2>Shoes</h2>
+        <Section class="container" id="shoes">
+            <h1 class="text-center m-5">Shoes</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card border-0 shadow-lg h-100">
@@ -186,8 +186,8 @@
             </div>
         </Section>
         <!-- Backpack -->
-        <Section class="container my-5">
-            <h2>Backpack</h2>
+        <Section class="container my-5" id="backpack">
+            <h1 class="text-center m-5">Backpack</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card border-0 shadow-lg h-100">
@@ -235,9 +235,23 @@
                 </div>
             </div>
         </Section>
+        <!-- Subscribe -->
+        <section style="height: 300px;" id="subscribe"
+            class="container bg-danger bg-opacity-25 d-flex justify-content-center align-items-center rounded-3">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales, specials and more</p>
+                <input type="text" placeholder="Enter your E-mail" name="" id="">
+                <button class="btn btn-danger">Submit</button>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <!-- Footer -->
+    <footer class="mt-5 text-center">
+        <small>
+            <p>©2022 All rights reserved | @ratulinspace
+            </p>
+        </small>
     </footer>
 
     <!-- Bootstrap Script -->
